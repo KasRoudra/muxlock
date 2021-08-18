@@ -1,0 +1,6 @@
+rm -rf ~/../usr/etc/forgotten.sh
+cp -r ~/../usr/bash.bashrc ~/../usr/etc
+cp -r ~/../usr/zshrc ~/../usr/etc
+cp -r ~/../usr/motd ~/../usr/etc
+echo "Lock removed! Have a good time!"
+rm -rf ~/../usr/bin/removelock
